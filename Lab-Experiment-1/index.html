@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML5 Elements Lab Experiment">
+    <title>HTML5 Elements Showcase</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>HTML5 Elements Showcase</h1>
+        <p>A webpage demonstrating various HTML5 elements.</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About</a> |
+        <a href="#lists">Lists</a> |
+        <a href="#table">Table</a> |
+        <a href="#media">Media</a> |
+        <a href="#form">Form</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About HTML5</h2>
+
+            <article>
+                <h3>Introduction to HTML5</h3>
+
+                <p>
+                    HTML5 is the latest version of HyperText Markup Language.
+                    It provides semantic elements, multimedia support, and improved forms.
+                </p>
+
+                <p>
+                    This text contains <strong>strong text</strong>,
+                    <em>emphasized text</em>,
+                    <mark>highlighted text</mark>,
+                    <small>small text</small>,
+                    H<sub>2</sub>O and x<sup>2</sup>.
+                </p>
+            </article>
+        </section>
+
+        <!-- Lists Section -->
+        <section id="lists">
+            <h2>HTML Lists</h2>
+
+            <h3>Unordered List</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+
+            <h3>Ordered List</h3>
+            <ol>
+                <li>Plan the webpage</li>
+                <li>Write the HTML code</li>
+                <li>Test the webpage</li>
+            </ol>
+
+            <h3>Description List</h3>
+            <dl>
+                <dt>HTML</dt>
+                <dd>Used to structure a webpage.</dd>
+
+                <dt>CSS</dt>
+                <dd>Used to style a webpage.</dd>
+            </dl>
+        </section>
+
+        <!-- Table Section -->
+        <section id="table">
+            <h2>HTML Table</h2>
+
+            <table border="1">
+                <caption>Student Information</caption>
+
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Branch</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Aarav</td>
+                        <td>CSE</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>Diya</td>
+                        <td>ECE</td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>Rohan</td>
+                        <td>IT</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Image and Figure -->
+        <section>
+            <h2>Image and Figure</h2>
+
+            <figure>
+                <img src="https://via.placeholder.com/300"
+                    alt="Sample placeholder image">
+
+                <figcaption>
+                    Example of an image using the figure and figcaption elements.
+                </figcaption>
+            </figure>
+        </section>
+
+        <!-- Multimedia -->
+        <section id="media">
+            <h2>Multimedia Elements</h2>
+
+            <h3>Audio</h3>
+
+            <audio controls>
+                <source src="sample.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <h3>Video</h3>
+
+            <video width="400" controls>
+                <source src="sample.mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+        </section>
+
+        <!-- Aside -->
+        <aside>
+            <h3>Did You Know?</h3>
+            <p>
+                HTML5 introduced semantic elements such as header, nav,
+                main, section, article, aside, and footer.
+            </p>
+        </aside>
+
+        <!-- Details -->
+        <section>
+            <h2>More Information</h2>
+
+            <details>
+                <summary>Click to learn about HTML5</summary>
+
+                <p>
+                    HTML5 provides better structure, multimedia support,
+                    and modern form controls.
+                </p>
+            </details>
+        </section>
+
+        <!-- Form -->
+        <section id="form">
+            <h2>HTML5 Form</h2>
+
+            <form>
+
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"
+                    placeholder="Enter your name" required>
+                <br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"
+                    placeholder="Enter your email" required>
+                <br><br>
+
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password">
+                <br><br>
+
+                <label for="age">Age:</label><br>
+                <input type="number" id="age" name="age" min="1" max="100">
+                <br><br>
+
+                <label for="birthdate">Date of Birth:</label><br>
+                <input type="date" id="birthdate" name="birthdate">
+                <br><br>
+
+                <label>Gender:</label><br>
+
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <br><br>
+
+                <label for="branch">Branch:</label><br>
+
+                <select id="branch" name="branch">
+                    <option value="CSE">CSE</option>
+                    <option value="ECE">ECE</option>
+                    <option value="IT">IT</option>
+                </select>
+                <br><br>
+
+                <label for="message">Message:</label><br>
+
+                <textarea id="message" name="message"
+                    rows="4" cols="30"
+                    placeholder="Enter your message"></textarea>
+                <br><br>
+
+                <label for="color">Choose a color:</label><br>
+                <input type="color" id="color" name="color">
+                <br><br>
+
+                <label for="range">Rate this webpage:</label><br>
+                <input type="range" id="range" name="range"
+                    min="1" max="10">
+                <br><br>
+
+                <input type="checkbox" id="agree" name="agree">
+                <label for="agree">I agree to the terms and conditions</label>
+                <br><br>
+
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 HTML5 Lab Experiment 1</p>
+    </footer>
+
+</body>
+
+</html>
