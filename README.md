@@ -6,24 +6,22 @@ This repository contains the theory tasks and laboratory experiments completed a
 
 ## Theory
 
-| Task | Report |
-|---|---|
-| Task 1 | [View Report](Theory/Task-1/report.md) |
-| Task 2 | [View Report](Theory/Task-2/report.md) |
-| Task 3 | [View Report](Theory/Task-3/report.md) |
-| Task 4 | [View Report](Theory/Task-4/report.md) |
-| Task 5 | [View Report](Theory/Task-5/report.md) |
-| Task 6 | [View Report](Theory/Task-6/report.md) |
-| Task 7 | [View Report](Theory/Task-7/report.md) |
-| Task 8 | [View Report](Theory/Task-8/report.md) |
+## Theory
+
+- [Task 1](Theory/Task-1.md)
+- [Task 2](Theory/Task-2.md)
+- [Task 3](Theory/Task-3.md)
+- [Task 4](Theory/Task-4.md)
+- [Task 5](Theory/Task-5.md)
+- [Task 6](Theory/Task-6.md)
+- [Task 7](Theory/Task-7.md)
+- [Task 8](Theory/Task-8.md)
+## Lab
 
 ## Lab
 
-| Experiment | Report |
-|---|---|
-| Experiment 1 | [View Report](Lab/Experiment-1/report.md) |
-| Experiment 12 | [View Report](Lab/Experiment-12/report.md) |
-
+- [Experiment 1](Lab/Experiment-1/report.md)
+- [Experiment 12](Lab/Experiment-12/report.md)
 ## Technologies Used
 
 - Node.js
